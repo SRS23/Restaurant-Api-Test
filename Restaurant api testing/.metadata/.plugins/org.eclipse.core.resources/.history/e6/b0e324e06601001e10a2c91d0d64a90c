@@ -1,0 +1,54 @@
+2023-06-02 22:28:22,139 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - 
+2023-06-02 22:28:22,144 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - get data: [
+    {
+        "id": 1,
+        "name": "Durga Devi Veg",
+        "location": "Vijayawada"
+    },
+    {
+        "id": 2,
+        "name": "Rayalaseema Restaurant",
+        "location": "Kadapa"
+    },
+    {
+        "id": 3,
+        "name": "Swagath Restaurant",
+        "location": "Guntur"
+    },
+    {
+        "id": 4,
+        "name": "Chilies Restaurant",
+        "location": "Hyderabad"
+    },
+    {
+        "id": 5
+    },
+    {
+        "id": 7
+    },
+    {
+        "id": 8
+    },
+    {
+        "id": 9
+    },
+    {
+        "id": 10
+    }
+]
+2023-06-02 22:28:22,144 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - 
+2023-06-02 22:28:22,145 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - jwtToken
+2023-06-02 22:28:22,248 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - post data: {
+    "id": 11
+}
+2023-06-02 22:28:22,249 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - 
+2023-06-02 22:28:22,327 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - put data: {
+    "id": 5
+}
+2023-06-02 22:28:22,327 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - 
+2023-06-02 22:28:22,395 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - Delete EmpDetail test started successfully..
+2023-06-02 22:28:22,396 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - 
+2023-06-02 22:28:22,453 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - Delete EmpDetail test started successfully..
+2023-06-02 22:28:22,453 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - 
+2023-06-02 22:28:22,502 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - Delete EmpDetail test started successfully..
+2023-06-02 22:28:22,503 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - 

@@ -1,0 +1,110 @@
+2023-06-02 22:34:33,846 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - 
+2023-06-02 22:34:33,852 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - get data: [
+    {
+        "id": 1,
+        "name": "Durga Devi Veg",
+        "location": "Vijayawada"
+    },
+    {
+        "id": 2,
+        "name": "Rayalaseema Restaurant",
+        "location": "Kadapa"
+    },
+    {
+        "id": 3,
+        "name": "Swagath Restaurant",
+        "location": "Guntur"
+    },
+    {
+        "id": 4,
+        "name": "Chilies Restaurant",
+        "location": "Hyderabad"
+    },
+    {
+        "id": 5,
+        "name": " Restaurant 2",
+        "location": "Guntur"
+    },
+    {
+        "id": 6,
+        "name": " Restaurant 1",
+        "location": "Hyderabad"
+    }
+]
+2023-06-02 22:34:33,854 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - 
+2023-06-02 22:34:33,854 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - jwtToken
+2023-06-02 22:34:33,940 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - post data: {
+    "id": 7
+}
+2023-06-02 22:34:33,940 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - 
+2023-06-02 22:34:34,018 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - put data: {
+    "id": 5
+}
+2023-06-02 22:34:34,018 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - 
+2023-06-02 22:34:34,087 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - get data: [
+    {
+        "id": 1,
+        "name": "Durga Devi Veg",
+        "location": "Vijayawada"
+    },
+    {
+        "id": 2,
+        "name": "Rayalaseema Restaurant",
+        "location": "Kadapa"
+    },
+    {
+        "id": 3,
+        "name": "Swagath Restaurant",
+        "location": "Guntur"
+    },
+    {
+        "id": 4,
+        "name": "Chilies Restaurant",
+        "location": "Hyderabad"
+    },
+    {
+        "id": 5
+    },
+    {
+        "id": 6,
+        "name": " Restaurant 1",
+        "location": "Hyderabad"
+    },
+    {
+        "id": 7
+    }
+]
+2023-06-02 22:34:34,087 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - 
+2023-06-02 22:34:34,141 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - Delete data: {
+    
+}
+2023-06-02 22:34:34,141 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - 
+2023-06-02 22:34:34,189 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - get data: [
+    {
+        "id": 1,
+        "name": "Durga Devi Veg",
+        "location": "Vijayawada"
+    },
+    {
+        "id": 2,
+        "name": "Rayalaseema Restaurant",
+        "location": "Kadapa"
+    },
+    {
+        "id": 3,
+        "name": "Swagath Restaurant",
+        "location": "Guntur"
+    },
+    {
+        "id": 4,
+        "name": "Chilies Restaurant",
+        "location": "Hyderabad"
+    },
+    {
+        "id": 5
+    },
+    {
+        "id": 7
+    }
+]
+2023-06-02 22:34:34,189 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - 

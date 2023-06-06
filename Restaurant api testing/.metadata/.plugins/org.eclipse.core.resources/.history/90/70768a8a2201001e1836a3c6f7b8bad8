@@ -1,0 +1,39 @@
+package tokens;
+
+import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.SignatureAlgorithm;
+
+import java.util.Date;
+
+import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.SignatureAlgorithm;
+import io.jsonwebtoken.security.Keys;
+
+import java.security.Key;
+import java.util.Date;
+
+public class Tokenss {
+    public static String generateJwtToken(String userId) {
+        String secretKey = "your-secret-key";
+
+        Key signingKey = Keys.hmacShaKeyFor(secretKey.getBytes());
+
+        long expirationTimeMillis = System.currentTimeMillis() + 3600000; // Token expires in 1 hour
+
+        String token = Jwts.builder()
+                .setSubject(userId)
+                .setExpiration(new Date(expirationTimeMillis))
+                .signWith(signingKey, SignatureAlgorithm.HS256)
+                .compact();
+
+        return token;
+    }
+
+    // Usage
+    public static void main(String[] args) {
+        String userId = "123456";
+        String token = generateJwtToken(userId);
+        System.out.println(token);
+    }
+}
+

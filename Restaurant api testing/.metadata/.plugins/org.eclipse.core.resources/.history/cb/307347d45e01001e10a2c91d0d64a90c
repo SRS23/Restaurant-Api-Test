@@ -1,0 +1,29 @@
+package payload;
+
+public class DataForTests {
+
+    public static String postData() {
+        return "{\n"
+                + "  \"id\": 5,\n"
+                + "  \"name\": \"Amul Restaurant\",\n"
+                + "  \"location\": \"Secunderabad\"\n"
+                + "}";
+    }
+
+
+    public static String postData1() {
+        return "{\n"
+                + "  \"id\": 6,\n"
+                + "  \"name\": \"AmuruthVillas Restaurant\",\n"
+                + "  \"location\": \"Hyderabad\"\n"
+                + "}";
+    }
+
+    public static String putData() {
+        return "{\n"
+                + "  \"id\": 6,\n"
+                + "  \"name\": \"Happy Restaurant\",\n"
+                + "  \"location\": \"Madanapalle\"\n"
+                + "}";
+    }
+}

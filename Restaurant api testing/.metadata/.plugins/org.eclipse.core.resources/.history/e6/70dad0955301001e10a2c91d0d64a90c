@@ -1,0 +1,89 @@
+package com.restassure.RestaurantApiTest;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import static io.restassured.RestAssured.given;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.core.config.Configurator;
+import org.testng.annotations.Test;
+
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.builder.ResponseSpecBuilder;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.ResponseSpecification;
+import uriData.UriLinkss;
+import tokens.Tokenss;
+
+public class RestaurantApiTesting {
+	
+	String jwtToken = "Tokenss.generateJwtToken";
+	
+	
+
+	@Test
+	public void RestaurantApiGetTestt() {
+		
+		RequestSpecification req = new RequestSpecBuilder().setBaseUri(UriLinkss.baseURI).build();
+		RequestSpecification req1 = given().spec(req);
+		
+		ResponseSpecification res = new ResponseSpecBuilder().expectContentType(ContentType.JSON).build();
+		Response res1 = req1.when().get().then().log().all().spec(res).extract().response();
+		
+		String res2 = res1.asPrettyString();
+		
+		System.out.println(res2);
+		System.out.println(jwtToken);
+			
+	}
+	
+	@Test
+	public void RestaurantApiPostTestt() {
+			
+		RequestSpecification req = new RequestSpecBuilder().setBaseUri(UriLinkss.baseURI).build();
+		RequestSpecification req1 = given().spec(req);
+		
+		ResponseSpecification res = new ResponseSpecBuilder().expectContentType(ContentType.JSON).build();
+		Response res1 = req1.when().post().then().log().all().spec(res).extract().response();
+		
+		String res2 = res1.asPrettyString();
+		
+		System.out.println(res2);
+	}
+		
+	@Test
+	public void RestaurantApiPutTestt() {
+				
+		
+		RequestSpecification req = new RequestSpecBuilder().setBaseUri(UriLinkss.baseURI).build();
+		RequestSpecification req1 = given().spec(req).header("Authorization", "Bearer " + jwtToken);
+		
+		ResponseSpecification res = new ResponseSpecBuilder().expectContentType(ContentType.JSON).build();
+		Response res1 = req1.when().put().then().log().all().spec(res).extract().response();
+		
+		String res2 = res1.asPrettyString();
+		
+		System.out.println(res2);
+		
+		
+	}
+		
+		
+	@Test
+	public void RestaurantApiDeleteTestt() {
+			
+		RequestSpecification req = new RequestSpecBuilder().setBaseUri(UriLinkss.baseURI).build();
+		RequestSpecification req1 = given().spec(req).header("Authorization", "Bearer " + jwtToken);
+		
+		ResponseSpecification res = new ResponseSpecBuilder().expectContentType(ContentType.JSON).build();
+		Response res1 = req1.when().delete().then().log().all().spec(res).extract().response();
+		
+		String res2 = res1.asPrettyString();
+		
+		System.out.println(res2);
+		
+	}
+}

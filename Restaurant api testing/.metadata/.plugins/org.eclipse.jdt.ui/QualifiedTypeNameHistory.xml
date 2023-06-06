@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="uriData.UriLinkss"/>
+    <fullyQualifiedTypeName name="tokens.Tokenss"/>
+    <fullyQualifiedTypeName name="payload.DataForTests"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.LogManager"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.core.config.Configurator"/>
+</qualifiedTypeNameHistroy>

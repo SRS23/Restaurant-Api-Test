@@ -1,0 +1,17 @@
+package payload;
+
+public class DataForTests {
+
+    public static String postData() {
+        return "F:\\svl svs\\My projects\\Phase -3 projects\\Restaurant api testing\\db.json";
+    }
+
+
+    public static String postData1() {
+        return "F:\\svl svs\\My projects\\Phase -3 projects\\Restaurant api testing\\db.json";
+    }
+
+    public static String putData() {
+        return "F:\\svl svs\\My projects\\Phase -3 projects\\Restaurant api testing\\db.json";
+    }
+}

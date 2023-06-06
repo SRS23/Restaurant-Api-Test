@@ -1,0 +1,34 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Durga Devi Veg",
+      "location": "Vijayawada"
+    },
+    {
+      "id": 2,
+      "name": "Rayalaseema Restaurant",
+      "location": "Kadapa"
+    },
+    {
+      "id": 3,
+      "name": "Swagath Restaurant",
+      "location": "Guntur"
+    },
+    {
+      "id": 4,
+      "name": "Chilies Restaurant",
+      "location": "Hyderabad"
+    },
+     {
+        "id": 5,
+        "name": " Restaurant 2",
+        "location": "Guntur"
+    },
+    {
+        "id": 6,
+        "name": " Restaurant 1",
+        "location": "Hyderabad"
+    }
+  ]
+}

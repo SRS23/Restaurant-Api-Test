@@ -1,0 +1,12 @@
+package payload;
+
+public class DataForTests {
+
+	public static String postData() {
+		return "{\r\n"
+				+ "  \"id\": 5,\r\n"
+				+ "  \"name\": \"Amul Restaurant\",\r\n"
+				+ "  \"location\": \"Secunderabad\"\r\n"
+				+ "}";
+	}
+}
